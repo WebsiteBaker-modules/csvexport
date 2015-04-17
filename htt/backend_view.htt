@@ -1,0 +1,37 @@
+<div class="{MOD_CLASS}">
+
+<h2>{TXT_HEADER_BACKEND}</h2>
+
+<form name="edit" action="{WB_URL}/modules/{MOD_CLASS}/save.php" method="post">
+	<input type="hidden" name="page_id" value="{PAGE}" />
+	<input type="hidden" name="section_id" value="{SECTION}" />
+
+	<fieldset>
+	<legend>{TXT_TABLE}</legend>
+	<select name="table" size="1">
+{TABLE_LIST}
+	</select>
+	</fieldset>
+	
+	<fieldset>
+	<legend>{TXT_TARGET_FILE}</legend>
+	<input name="target" type="text" size="80" maxlength="80" value="{TFV}" />
+	<p>{TXT_TARGET_FILE_HINT}</p>
+	</fieldset>
+	
+	<fieldset>
+	<legend>{TXT_TARGET_CP}</legend>
+	<input name="targetcp" type="text" size="80" maxlength="20" value="{TCV}" />
+	<p>{TXT_TARGET_CP_HINT}</p>
+	</fieldset>
+	
+	<fieldset>
+	<legend>{TXT_SOURCE_CP}</legend>
+	<input name="sourcecp" type="text" size="80" maxlength="20"  value="{SCV}" />
+	<p>{TXT_SOURCE_CP_HINT}</p>
+	</fieldset>
+
+	<input class="button" type="submit" value="{TXT_SETTINGS}" />
+</form>
+
+</div>

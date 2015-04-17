@@ -1,0 +1,75 @@
+/**
+ * Page module: CSV Export
+ *
+ * This file contains the CSS definitions of the module frontend.
+ * 
+ * LICENSE: Creative Commons Attribution-NonCommercial-No Derivate 3.0 License
+ * 
+ * @author		Frank Heyne (wb at heysoft dot de)
+ * @copyright	(c) 2009
+ * @license		http://creativecommons.org/licenses/by-nc-nd/3.0/
+*/
+
+div.csvexport h2 {
+	padding: 0 0 6px 0;
+}
+
+*:first-child+html div.csvexport h2 {
+	padding: 0 0 16px 0;
+}
+
+div.csvexport p {
+	line-height: 1.2em;
+}
+
+div.csvexport fieldset {
+	padding: 0px 6px 6px 6px;
+	margin: 6px 0px 16px 0px;
+	background-color: #cdf;
+}
+
+*:first-child+html div.csvexport fieldset {
+	padding: 6px 6px 6px 6px;
+	margin: 6px 0px 24px 0px;
+}
+
+div.csvexport legend {
+	padding: 6px 6px 0px 6px;
+	margin: 0 0 20px 0;
+	background-color: #cdf;
+	border-left: 1px solid #666;
+	border-top: 1px  solid #666;
+	border-right: 1px  solid #666;
+	font-weight: bold;
+}
+
+*:first-child+html div.csvexport legend {
+	padding: 2px 6px 0px 6px;
+	margin: -22px 0 10px 0;
+}
+
+div.csvexport input, div.csvexport select {
+	background-color: #ffd;
+}
+
+div.csvexport input:hover,  div.csvexport input:focus,
+div.csvexport select:hover, div.csvexport select:focus {
+	background-color: #fff;
+}
+
+div.csvexport input.button, input.mod_csvexport_edit_css {
+	background-color: #ffa;
+	padding: 6px;
+	border: 2px solid #444;
+	border-left: 1px solid #444;
+	border-top: 1px  solid #444;
+	color: #333;
+}
+
+div.csvexport input.button:hover, input.mod_csvexport_edit_css:hover {
+	background-color: #ff8;
+}
+
+input.mod_csvexport_edit_css {
+	float: right;
+}

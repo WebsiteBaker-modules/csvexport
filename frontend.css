@@ -1,0 +1,15 @@
+/**
+ * Page module: CSV Export
+ *
+ * This file contains the CSS definitions of the module frontend.
+ * 
+ * LICENSE: Creative Commons Attribution-NonCommercial-No Derivate 3.0 License
+ * 
+ * @author		Frank Heyne (wb at heysoft dot de)
+ * @copyright	(c) 2009
+ * @license		http://creativecommons.org/licenses/by-nc-nd/3.0/
+*/
+
+div.csvexport p {
+	line-height: 1.5em;
+}		
